@@ -1,5 +1,5 @@
 # Deep-learning-task-ITI
-## Customer Churn Classification (FCNN)
+## [Customer Churn Classification (FCNN)](./Classification_using_FCNN_on_Churn_Modelling_Dataset.ipynb)
 
 Binary classification model predicting customer churn using a Fully Connected Neural 
 Network on the Churn Modelling dataset (10,000 customers, ~80/20 imbalance). Includes 
