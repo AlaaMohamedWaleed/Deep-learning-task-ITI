@@ -16,7 +16,14 @@ based outlier validation, and learning rate tuning.
 
 **Results:** MAE 32.35 lakhs | RMSE 66.55 lakhs | R² 0.730
 
-## [CNN model classifying traffic signs](./traffic-signs-classification-using-cnn.ipynb)
+
+## [Traffic signs classification (CNN)](./traffic-signs-classification-using-cnn.ipynb)
 (GTSRB, ~104,000 images, 43 classes) using preprocessed 32×32 pickled data from [Kaggle](https://www.kaggle.com/datasets/valentynsichkar/traffic-signs-preprocessed?select=data2.pickle). Includes EDA on class distribution, channel order fixes, and a 3-block Conv2D architecture with BatchNorm and dropout.
 
 **Results:** Test Accuracy 98.12% | Test Loss 0.1145 | Weighted F1 0.98
+
+
+## [Flower Image Classification (CNN) ](./transfer-learning-data-augmentation-flower-classi.ipynb)
+Multi-class flower classification on 5 species using Transfer Learning with a two-stage training strategy: partial feature extraction and head fine-tuning, integrated with heavy data augmentation and dropout regularization..
+
+Results: Accuracy 0.91 | Loss 0.3049 | Validation Accuracy 91.08%
