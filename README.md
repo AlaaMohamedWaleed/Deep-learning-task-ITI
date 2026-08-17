@@ -24,6 +24,6 @@ based outlier validation, and learning rate tuning.
 
 
 ## [Flower Image Classification (CNN) ](./transfer-learning-data-augmentation-flower-classi.ipynb)
-Multi-class flower classification on 5 species using Transfer Learning with a two-stage training strategy: partial feature extraction and head fine-tuning, integrated with heavy data augmentation and dropout regularization..
+Multi-class flower classification on [kaggle dataset](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition) using Transfer Learning with a two-stage training strategy: partial feature extraction and head fine-tuning, integrated with heavy data augmentation and dropout regularization..
 
 Results: Accuracy 0.91 | Loss 0.3049 | Validation Accuracy 91.08%
